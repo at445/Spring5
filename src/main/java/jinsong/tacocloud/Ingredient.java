@@ -16,6 +16,10 @@ public class Ingredient {
     private String name;
     private Type type;
 
+    public Type getType() {
+        return type;
+    }
+
     public Ingredient(String id, String name, Type type) {
         this.id = id;
         this.name = name;
