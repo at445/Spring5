@@ -1,14 +1,20 @@
-package jinsong.tacocloud;
+package jinsong.tacocloud.common;
 
 
 import lombok.Data;
 import org.springframework.lang.NonNull;
 
 import javax.validation.constraints.Size;
+import java.util.Date;
 import java.util.List;
 
 @Data
 public class Taco {
+
+    private Long id;
+
+    private Date createdAt;
+
     @NonNull
     @Size(min=5, message="Name must be at least 5 characters long")
     private String name;

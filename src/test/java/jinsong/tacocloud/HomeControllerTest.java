@@ -1,7 +1,6 @@
 package jinsong.tacocloud;
 
 
-import jinsong.tacocloud.web.WebConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +15,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
 
 @RunWith(SpringRunner.class)
-@WebMvcTest(WebConfig.class)
 public class HomeControllerTest {
     @Autowired
     private MockMvc mockMvc;

@@ -1,6 +1,6 @@
-package jinsong.tacocloud.web;
+package jinsong.tacocloud.controller;
 
-import jinsong.tacocloud.Order;
+import jinsong.tacocloud.common.Order;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
